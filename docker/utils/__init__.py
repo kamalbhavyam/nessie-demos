@@ -42,7 +42,7 @@ _HADOOP_URL = f"https://archive.apache.org/dist/hadoop/common/hadoop-{_HADOOP_VE
 
 _FLINK_MAJOR_VERSION = "1.13"
 
-_ICEBERG_VERSION = "0.13.1"
+_ICEBERG_VERSION = "0.14.0"
 _ICEBERG_FLINK_FILENAME = f"iceberg-flink-runtime-{_FLINK_MAJOR_VERSION}-{_ICEBERG_VERSION}.jar"
 _ICEBERG_FLINK_URL = f"https://repo1.maven.org/maven2/org/apache/iceberg/iceberg-flink-runtime-{_FLINK_MAJOR_VERSION}/{_ICEBERG_VERSION}/{_ICEBERG_FLINK_FILENAME}"
 _ICEBERG_HIVE_FILENAME = f"iceberg-hive-runtime-{_ICEBERG_VERSION}.jar"
